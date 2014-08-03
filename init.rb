@@ -13,7 +13,7 @@ cart = Cart.new
 cart.add_item item1
 cart.add_item item2
 cart.add_item item3
-cart.pop
+cart.remove_item
 puts cart.items.size
 
 
